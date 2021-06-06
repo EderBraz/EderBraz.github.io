@@ -19,28 +19,42 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: '',
-        description:
-          '',
-        link: '',
+        name: 'Cat Dog Classifier using Neural Networks',
+        description: 'For this project i built a Neural network to classify whether images contain either a dog or a cat using a State-of-the-Art CNN model' +
+       `Image Preprocessing.
+        Transfer learning on a CNN trained on inceptionV3 architecture.
+        I was able to get the model to predict the pet(cat or dog) with 96.4% accuracy.
+        Tested with my pets!`,
+        link: 'https://github.com/EderBraz/Cat_dog_classifier',
       },
       {
-        name: '',
-        description:
-          '',
-        link: '',
+        name: 'Codenation Challenge - Predicting Math Grad for Brazilian Enem',
+        description: `In Brazil, there is a high school national grading exam called ENEM (Exame Nacional do Ensino Médio) which takes place yearly and sets grades for 
+        admission on most universities and colleges. The goal is to predict exam grades by using regression models.
+        Feature Engineering.
+        Exploratory Data Analysis.
+        Regression using Linear Regression and Gradient Boosting.
+        Score 93.62%.`,
+        link: 'https://github.com/EderBraz/Codenation_Enem_2016',
       },
       {
         name: 'The Battle of the Neighborhoods',
-        description:
-          `In this project, i am creating a hypothetical scenario. My client, a successful restaurant chain in Brazil 
+        description: `In this project, i am creating a hypothetical scenario. My client, a successful restaurant chain in Brazil 
           is looking to expand in New York. They want to create a Brazilian steakhouse restaurant. 
           However, he does not know in which neighborhood the restaurant would gain the most attention from customers and
-           face the least competition from other steakhouses.
-          * Extracting data from Foursquare APIs
-          * Performing K-means clustering algorithm to segment neighborhoods
-          * Geospatial visualization with folium library.`,
+           face the least competition from other steakhouses. 
+           Extracting data from Foursquare APIs.
+           Performing K-means clustering algorithm to segment neighborhoods.
+           Geo spatial visualization with folium library.`,
         link: 'https://github.com/EderBraz/Applied-Data-Science-Capstone',
+      },
+      {
+        name: 'Analysis of the stack overflow survey',
+        description: `In this project, I analyzed data from an online survey 2019 of software professionals across the world conducted by Stack Overflow to get insights 
+        into current technology usage & future technology trend.
+        SQL & Python to perform data wrangling and exploratory data analysis (EDA).
+        Data visualization using IBM Cognos Dashboard Embedded, and Microsoft PowerPoint for data presentation.`,
+        link: 'https://github.com/EderBraz/IBM-Data-Analyst-Capstone',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
@@ -63,8 +77,9 @@ module.exports = {
         description: 'PostgreSQL, MySQL, MongoDB',
       },
       {
-        name: "Data",
-        description: 'Machine learning, Deep learning, NPL, EDA(Exploratory Data Analysis), Data wrangling, Data Visualization',
+        name: 'Data',
+        description:
+          'Machine learning, Deep learning, NPL, EDA(Exploratory Data Analysis), Data wrangling, Data Visualization',
       },
       {
         name: 'Other',
