@@ -19,6 +19,11 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        name: "Repair Shop",
+        description:"REST API using Java Spring Boot, PostgreSQL, Swagger.",
+        link:"https://github.com/EderBraz/Sistema-para-controle-de-manuten-o-de-equipamentos",
+      },
+      {
         name: 'Cat Dog Classifier using Neural Networks',
         description: `For this project i built a Neural network to classify whether images contain either a dog or a cat using a State-of-the-Art CNN model`,
         link: 'https://github.com/EderBraz/Cat_dog_classifier',
